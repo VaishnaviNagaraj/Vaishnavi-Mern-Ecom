@@ -1,0 +1,31 @@
+.order-sum-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-sum-details p {
+    font-size: x-large;
+}
+
+.order-details {
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.order-sum-details button {
+    margin: 25px 0px;
+    padding: 10px;
+    gap: 20px;
+    cursor: pointer;
+    background-color: lightpink;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.19); 
+}

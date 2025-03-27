@@ -1,0 +1,52 @@
+.item {
+    width: 250px;
+    text-align: -webkit-center;
+    background: linear-gradient(0deg, lavenderblush, transparent);
+}
+
+.item p {
+    width: 80%;
+    margin: 6px 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-desc {
+    font-size: 12px;
+    color: grey;
+}
+
+.item-prices {
+    display: flex;
+    gap: 20px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.item img {
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+}
+
+.item button {
+    margin: 15px 0px;
+    padding: 10px;
+    gap: 20px;
+    cursor: pointer;
+    background-color: lightpink;
+    border: 1px solid grey;
+    font-size: 17px;
+    font-weight: 400px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.19); */
+}
+
+.image-Div {
+    max-width: fit-content;
+    height: 150px;
+}
